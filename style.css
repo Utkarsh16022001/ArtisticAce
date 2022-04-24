@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto&family=Source+Code+Pro:wght@300&family=Supermercado+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:rgb(201, 190, 190);
+    width: 430px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 120vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black
+}
+
+.main{
+  /*  background-color: springgreen;*/
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /*background-color: rgb(255, 0, 0);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img{
+    height: 58vh;
+   }
+
+   .devInfo{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       font-family: 'Fira Sans', sans-serif;
+    }
+
+    .hello{
+      
+        font-size: 55px;
+    }
+    .name{
+        font-size: 50px;
+        font-family: 'Supermercado One', cursive;
+    }
+
+    .about{
+        font-size: 40px;
+    }
+
+    .moreabout{
+        font-size: 20px;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: bold;
+        margin-top: 23px;
+       }
+
+       .mabout{
+        font-size: 20px;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: bold;
+        margin-top: 23px;
+       }
+
+       .buttons{
+           margin-top: 34px;
+       }
+
+    .btn{
+        padding:9px 14px;
+        border-radius: 22px;
+        background-color: dodgerblue;
+        color: white;
+        font-weight: bold;  
+        font-size: 21px;
+        margin: 0 3px;
+        cursor: pointer;
+    }
+
+    .btn-sm{
+        font-size: 14px;
+        padding: 10px 19px;
+        margin: 12px 0;
+    }
+
+    .btn:hover{
+        color: dodgerblue;
+        background-color: white;
+    }
+
+    .contactform{
+        font-family: 'Fira Sans', sans-serif;
+        padding: 0 34px;
+        padding-top: 144px;
+        }
+
+    .contactform h1{
+        font-family: 'Supermercado One', cursive;
+        padding: 12px 0;
+    }
+    
+    .mb-3{
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+    }
+    .contactform form div input{
+        width: 26vw;
+        border-radius: 5px;
+        margin: 6px 0 0 0;
+        padding: 3px;
+    }
+
+    #emailHelp{
+        font-size: 12px;
+        color: midnightblue;
+        margin: 0 5px;
+        padding: 3px 0 0 0;
+    }
+     #form-check{
+         flex-direction: row;
+     }
+    
+    #form-check input{
+         width: 24px;
+         margin: 3px 0;
+    }
+    h1{
+        font-family: 'Fira Sans', sans-serif;
+        margin: 23px;
+    }
+    p{
+        font-family: 'Supermercado One', cursive;
+    }
+    .intro h2{
+        font-family: 'Fira Sans', sans-serif;
+        margin: 12px 12px;
+    }
+    .intro p{
+        font-family: 'Supermercado One', cursive;
+        margin: 12px 12px;        
+
+    }
+
+    .skillcontainer{
+        padding: 12px;
+    }
+
+    .skillitem{
+        display: flex;
+        align-items: center;
+        font-family: 'Supermercado One', cursive;
+        font-weight: 400;
+    }
+
+    .skill{
+        width: 263px;
+        height: 5px;
+        background-color: red;
+        border: 2px solid black;
+        
+    }
+
+    .t75{
+     width: 263px;
+     background-color: crimson;
+    }
+
+    .fifty{
+     width: 150px;
+     background-color: rgb(59, 26, 90);
+    }
+
+    .t5{
+    width: 75px;
+    background-color: rgb(9, 70, 70);
+    }
+    .project h1{
+        font-family: 'Fira Sans', sans-serif;
+    }
+    .project ul{
+        padding-left: 45px;
+    }
+
+    .project ul li a{
+        text-decoration: None;
+    font-size: 20px;
+    padding: 33px 0;
+    font-family: 'Fira Sans', sans-serif;
+  
+    }
+    .project ul li{
+        margin: 15px 0;
+    }
+    
+    .Pic2 img{
+        height: 10vh;
+        padding-left: 45px;
+    }
+
+    .Pic3 img{
+        height: 15vh;
+        padding-left: 25px;
+    }
+
+    .project a:hover {
+        font-weight: bold;
+    }
+    
+    
