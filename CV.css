@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto&family=Source+Code+Pro:wght@300&family=Supermercado+One&display=swap');
+.project h1{
+    font-family: 'Fira Sans', sans-serif;
+}
+.project ul{
+    padding-left: 45px;
+}
+
+.project ul li a{
+    text-decoration: None;
+font-size: 20px;
+padding: 33px 0;
+font-family: 'Fira Sans', sans-serif;
+
+}
+.project ul li{
+    margin: 15px 0;
+}
+.Pic2 img{
+    height: 25vh;
+    padding-left: 45px;
+}
+div
+{
+    border-radius: 5px;
+    }
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    background-color: #99738E;
+    margin-bottom: 10px
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+
+
+a:hover {
+    font-weight: bold;
+}
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8;
+    }
+
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #C1E3E1;
+    }
+    
+h3
+{
+    text-decoration: underline;
+    }
+
+
+
+    
+table
+{
+    border: 1px dashed black;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid #E88741;
+    }
+
+#course-name
+{
+    font-weight:bold;
+    }
+
+.company-name
+{
+    height:2px;
+    text-decoration:underline;
+    }
+
+#heading
+{
+    font-weight:bold;
+    }
